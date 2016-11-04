@@ -10,12 +10,17 @@
 		"type": "git",
 		"url": "https://archive.eldergods.com/sw-ecstatic-fs"
 	},
-	"keywords": ["fs", "serviceworker", "indexeddb"],
+	"keywords": [
+		"fs",
+		"serviceworker",
+		"indexeddb"
+	],
 	"author": "rektide de la faye",
 	"license": "X11",
 	"dependencies": {
 		"ecstatic": "^2.1.0",
 		"level-filesystem": "^1.2.0",
-		"level-js": "^2.2.4"
+		"level-js": "^2.2.4",
+		"sw-serverrequest-bridge": "^1.0.0"
 	}
 }
